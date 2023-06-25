@@ -1,0 +1,20 @@
+2023-06-04 20:18:09,183 - level=CRITICAL - root - __init__() - line=14 - Config file not found
+2023-06-04 20:18:43,894 - level=INFO - __main__ - <module>() - line=24 - Service running on 127.0.0.1:9000
+2023-06-04 20:19:05,365 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 58380)>
+2023-06-04 20:19:05,368 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 58380)
+2023-06-04 20:19:05,759 - level=ERROR - APP.service.service_repository - recognize_face() - line=30 - [Errno 2] No such file or directory: 'encodeListKnown.npy'
+2023-06-04 20:19:05,760 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-04 20:21:18,616 - level=INFO - __main__ - <module>() - line=24 - Service running on 127.0.0.1:9000
+2023-06-04 20:21:53,118 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 58392)>
+2023-06-04 20:21:53,121 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 58392)
+2023-06-04 20:21:53,918 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-04 20:21:53,949 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-04 20:21:53,965 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-04 20:21:53,966 - level=INFO - __main__ - <module>() - line=59 - Return message: 1:token:455:username:Pawel
+2023-06-04 20:21:54,989 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 58394)>
+2023-06-04 20:21:54,993 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 58394)
+2023-06-04 20:21:54,994 - level=INFO - APP.database.db_mysql_repository - get_all_users() - line=20 - select id, name from users
+2023-06-04 20:21:55,004 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-04 20:21:55,005 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-04 20:21:55,007 - level=INFO - __main__ - <module>() - line=59 - Return message: 1:24;Pawel;30;grzes;31;bartek;
+2023-06-04 20:29:26,099 - level=INFO - __main__ - <module>() - line=24 - Service running on 127.0.0.1:9000

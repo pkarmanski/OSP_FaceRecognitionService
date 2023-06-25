@@ -1,0 +1,11 @@
+socket_params:
+  ip: 127.0.0.1
+  port: 9000
+  buffer_size: 4096
+database_params:
+  user: root
+  psw: azsxdc
+  ip: 127.0.0.1
+  port: 3306
+  database: face_recognition
+patterns_location: \\APP\\pattern

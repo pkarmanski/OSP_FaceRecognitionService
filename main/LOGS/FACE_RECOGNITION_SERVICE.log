@@ -1,0 +1,113 @@
+2023-06-05 19:47:55,973 - level=INFO - __main__ - <module>() - line=24 - Service running on 127.0.0.1:9000
+2023-06-05 19:48:37,155 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61756)>
+2023-06-05 19:48:37,157 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61756)
+2023-06-05 19:48:38,025 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-05 19:48:38,089 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:48:38,102 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:48:38,103 - level=INFO - __main__ - <module>() - line=59 - Return message: 1:token:686:username:Pawel
+2023-06-05 19:48:39,740 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1548, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61759)>
+2023-06-05 19:48:39,742 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61759)
+2023-06-05 19:48:39,743 - level=INFO - APP.database.db_mysql_repository - get_all_users() - line=20 - select id, name from users
+2023-06-05 19:48:39,753 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:48:39,754 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:48:39,757 - level=INFO - __main__ - <module>() - line=59 - Return message: 1:24;Pawel;30;grzes;31;bartek;
+2023-06-05 19:49:04,684 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61765)>
+2023-06-05 19:49:04,686 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61765)
+2023-06-05 19:49:04,686 - level=INFO - APP.database.db_mysql_repository - get_user_by_id() - line=49 - select name, picture_name from users where id=30
+2023-06-05 19:49:04,696 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:49:04,697 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:49:04,697 - level=INFO - APP.database.db_mysql_repository - delete_user_by_id() - line=60 - delete from users where id=30
+2023-06-05 19:49:04,707 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:49:04,714 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:49:04,714 - level=ERROR - APP.service.service_repository - delete_user() - line=88 - [WinError 3] System nie mo¿e odnaleŸæ okreœlonej œcie¿ki: 'APP\\pattern\\1684826498_grzes.png'
+2023-06-05 19:49:04,715 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:49:40,971 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61770)>
+2023-06-05 19:49:40,974 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61770)
+2023-06-05 19:49:40,974 - level=INFO - APP.database.db_mysql_repository - get_user_by_id() - line=49 - select name, picture_name from users where id=30
+2023-06-05 19:49:40,984 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:49:40,985 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:49:40,985 - level=INFO - APP.database.db_mysql_repository - delete_user_by_id() - line=60 - delete from users where id=30
+2023-06-05 19:49:40,995 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:49:40,996 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:49:40,996 - level=ERROR - APP.service.service_repository - delete_user() - line=88 - list index out of range
+2023-06-05 19:49:40,996 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:50:31,059 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61776)>
+2023-06-05 19:50:31,062 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61776)
+2023-06-05 19:50:31,063 - level=INFO - APP.database.db_mysql_repository - get_user_by_id() - line=49 - select name, picture_name from users where id=30
+2023-06-05 19:50:31,072 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:50:31,073 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:50:31,073 - level=INFO - APP.database.db_mysql_repository - delete_user_by_id() - line=60 - delete from users where id=30
+2023-06-05 19:50:31,084 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:50:31,085 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:50:31,085 - level=ERROR - APP.service.service_repository - delete_user() - line=88 - list index out of range
+2023-06-05 19:50:31,085 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:50:37,131 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61779)>
+2023-06-05 19:50:37,133 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61779)
+2023-06-05 19:50:37,134 - level=INFO - APP.database.db_mysql_repository - get_user_by_id() - line=49 - select name, picture_name from users where id=31
+2023-06-05 19:50:37,143 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:50:37,144 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:50:37,144 - level=INFO - APP.database.db_mysql_repository - delete_user_by_id() - line=60 - delete from users where id=31
+2023-06-05 19:50:37,156 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:50:37,161 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:50:37,162 - level=ERROR - APP.service.service_repository - delete_user() - line=88 - [WinError 3] System nie mo¿e odnaleŸæ okreœlonej œcie¿ki: 'APP\\pattern\\1684826687_bartek.png'
+2023-06-05 19:50:37,162 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:51:14,146 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61786)>
+2023-06-05 19:51:14,148 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61786)
+2023-06-05 19:51:14,148 - level=INFO - APP.database.db_mysql_repository - get_user_by_id() - line=49 - select name, picture_name from users where id=31
+2023-06-05 19:51:14,161 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:51:14,163 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:51:14,164 - level=INFO - APP.database.db_mysql_repository - delete_user_by_id() - line=60 - delete from users where id=31
+2023-06-05 19:51:14,174 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:51:14,176 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:51:14,177 - level=ERROR - APP.service.service_repository - delete_user() - line=88 - list index out of range
+2023-06-05 19:51:14,178 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:52:57,668 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1564, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61801)>
+2023-06-05 19:52:57,670 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61801)
+2023-06-05 19:52:57,670 - level=INFO - APP.database.db_mysql_repository - get_user_by_id() - line=49 - select name, picture_name from users where id=31
+2023-06-05 19:52:57,684 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:52:57,685 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:52:57,686 - level=INFO - APP.database.db_mysql_repository - delete_user_by_id() - line=60 - delete from users where id=31
+2023-06-05 19:52:57,697 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:52:57,698 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:52:57,699 - level=ERROR - APP.service.service_repository - delete_user() - line=88 - list index out of range
+2023-06-05 19:52:57,699 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:53:38,367 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1560, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61807)>
+2023-06-05 19:53:38,369 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61807)
+2023-06-05 19:53:39,145 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-05 19:53:39,155 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:53:39,158 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:53:39,158 - level=ERROR - APP.service.service_repository - recognize_face() - line=30 - list index out of range
+2023-06-05 19:53:39,159 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:53:43,441 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61809)>
+2023-06-05 19:53:43,443 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61809)
+2023-06-05 19:53:44,204 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-05 19:53:44,216 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:53:44,217 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:53:44,218 - level=ERROR - APP.service.service_repository - recognize_face() - line=30 - list index out of range
+2023-06-05 19:53:44,219 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:53:49,467 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61811)>
+2023-06-05 19:53:49,469 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61811)
+2023-06-05 19:53:50,216 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-05 19:53:50,226 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:53:50,226 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:53:50,227 - level=ERROR - APP.service.service_repository - recognize_face() - line=30 - list index out of range
+2023-06-05 19:53:50,228 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:53:56,263 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1556, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61814)>
+2023-06-05 19:53:56,266 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61814)
+2023-06-05 19:53:57,015 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-05 19:53:57,025 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:53:57,027 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:53:57,027 - level=ERROR - APP.service.service_repository - recognize_face() - line=30 - list index out of range
+2023-06-05 19:53:57,029 - level=INFO - __main__ - <module>() - line=59 - Return message: 0
+2023-06-05 19:54:48,094 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1540, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61818)>
+2023-06-05 19:54:48,096 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61818)
+2023-06-05 19:54:48,830 - level=INFO - APP.database.db_mysql_repository - get_user_name() - line=39 - select name from users where lower(picture_name)=lower("1683462113_abcd") 
+2023-06-05 19:54:48,840 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:54:48,842 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:54:48,842 - level=INFO - __main__ - <module>() - line=59 - Return message: 1:token:322:username:Pawel
+2023-06-05 19:54:50,386 - level=INFO - __main__ - <module>() - line=28 - Connection attempt: <socket.socket fd=1532, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 9000), raddr=('127.0.0.1', 61820)>
+2023-06-05 19:54:50,388 - level=INFO - APP.service.service - __init__() - line=12 - Connection address:('127.0.0.1', 61820)
+2023-06-05 19:54:50,390 - level=INFO - APP.database.db_mysql_repository - get_all_users() - line=20 - select id, name from users
+2023-06-05 19:54:50,403 - level=INFO - APP.database.db_mysql - connect() - line=22 - Connected
+2023-06-05 19:54:50,404 - level=INFO - APP.database.db_mysql - disconnect() - line=27 - Disconnected
+2023-06-05 19:54:50,404 - level=INFO - __main__ - <module>() - line=59 - Return message: 1:1;Pawel;
